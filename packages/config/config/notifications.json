@@ -384,14 +384,6 @@
 		"name": "Access Control",
 		"variables": [
 			{
-				"name": "Lock state",
-				"states": {
-					"0x0b": {
-						"label": "Lock jammed"
-					}
-				}
-			},
-			{
 				"name": "Keypad state",
 				"states": {
 					"0x10": {
@@ -570,6 +562,9 @@
 			},
 			"0x0A": {
 				"label": "Auto lock not fully locked operation"
+			},
+			"0x0B": {
+				"lable": "Lock jammed"
 			},
 			"0x0C": {
 				"label": "All user codes deleted"
